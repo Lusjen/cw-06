@@ -1,0 +1,44 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    text-align: center;
+    font-size: 20px;
+    background-color: gray;
+    box-shadow: 0 10px 20px gray;
+    width: 80vw;
+    margin: 0 auto;
+}
+.content img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.content p {
+    padding-bottom: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 40px;
+    background: gray;
+    animation-duration: 3s;
+    animation-name: translate;
+}
+@keyframes translate {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: 30px;
+    animation-duration: 3s;
+    animation-name: translate;
+    overflow: hidden;
+}
